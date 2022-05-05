@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.png" />
+    <script type="text/javascript" src="scripts.js"></script>
+    <title>Website</title>
+  </head>
+  <body>
+    <div class="top_bar">
+      <span class="top_left_logo">
+        <p>Tsch - Technologies</p>
+        <img src="favicon.png" />
+      </span>
+    </div>
+    <div id="winner"></div>
+    <div class="gameBoardDiv">
+      <table id="tableGameBoard">
+        <tr>
+          <td id="one" onclick="{selectSquare(0,0)}"></td>
+          <td class="two" onclick="{selectSquare(0,1)}"></td>
+          <td class="three" onclick="{selectSquare(0,2)}"></td>
+        </tr>
+        <tr>
+          <td class="four" onclick="{selectSquare(1,0)}"></td>
+          <td class="five" onclick="{selectSquare(1,1)}"></td>
+          <td class="six" onclick="{selectSquare(1,2)}"></td>
+        </tr>
+        <tr>
+          <td class="seven" onclick="{selectSquare(2,0)}"></td>
+          <td class="eight" onclick="{selectSquare(2,1)}"></td>
+          <td class="nine" onclick="{selectSquare(2,2)}"></td>
+        </tr>
+      </table>
+    </div>
+    <a href="#" class="clear" onclick="{clearBoard()}"
+      ><button>Clear</button></a
+    >
+  </body>
+</html>

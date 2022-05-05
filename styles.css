@@ -1,0 +1,102 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  user-select: none;
+}
+
+#thing {
+  border: 1px solid red;
+  min-height: 20px;
+  text-align: center;
+}
+
+.top_bar {
+  overflow: hidden;
+  font-weight: bold;
+  background-color: #fff;
+}
+.top_left_logo {
+  padding: 0.1%;
+  display: inline-flex;
+}
+.top_bar img {
+  position: absolute;
+  left: 13.7em;
+  height: 2em;
+  width: 2.5em;
+}
+.top_bar p {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+  left: 1em;
+  font-size: 1.5em;
+  color: black;
+  position: relative;
+}
+
+/* ------------------------------------------------------------------*/
+
+#winner {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  height: 20px;
+}
+
+/*--------------------------------------------------------------------*/
+#gameBoardDiv {
+  margin-right: 1%;
+  margin-top: 100px;
+}
+
+table {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+table td {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+table .two {
+  border-left: 5px dotted gray;
+  border-bottom: 5px dotted gray;
+  border-right: 5px dotted gray;
+}
+table .four {
+  border-top: 5px dotted gray;
+  border-bottom: 5px dotted gray;
+  border-right: 5px dotted gray;
+}
+table .six {
+  border-left: 5px dotted gray;
+  border-bottom: 5px dotted gray;
+  border-top: 5px dotted gray;
+}
+table .eight {
+  border-left: 5px dotted gray;
+  border-top: 5px dotted gray;
+  border-right: 5px dotted gray;
+}
+table td:hover {
+  background-color: #ddff;
+}
+
+table .one button {
+  padding: 0%;
+  width: 90px;
+  height: 90px;
+}
+
+.clear button {
+  text-align: center;
+  width: 60px;
+  height: 40px;
+  margin-left: 20%;
+}
